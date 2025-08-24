@@ -45,7 +45,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
            {/* Logo */}
 <Link to="/" className="flex items-center space-x-2 space-x-reverse">
   <img 
-    src="./src/assets/logoismail.png" 
+    src="../src/assets/logoismail.png" 
     alt="شعار مكتب أيت بها إسماعيل" 
     className="w-10 h-10 object-contain rounded-lg"
   />
