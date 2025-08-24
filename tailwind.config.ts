@@ -72,6 +72,11 @@ export default {
 			maxWidth: {
 				'content': 'var(--content-width)'
 			},
+			boxShadow: {
+				'golden': 'var(--shadow-golden)',
+				'card': 'var(--shadow-card)',
+				'floating': 'var(--shadow-floating)'
+			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
