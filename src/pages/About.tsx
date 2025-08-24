@@ -59,7 +59,7 @@ const About = () => {
                       <Phone className="w-5 h-5 text-golden mt-1" />
                       <div>
                         <p className="font-semibold">الهاتف</p>
-                        <p className="text-muted-foreground">0656-393165</p>
+                        <p className="text-muted-foreground">0663001800</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">

@@ -67,6 +67,7 @@ const Home = () => {
             <h1 className="text-4xl lg:text-6xl font-bold text-white mb-6">
               محامي ورزازات - مكتب محاماة
               <br />
+              <br />
               <span className="text-golden">أيت بها إسماعيل</span>
             </h1>
             
@@ -75,7 +76,7 @@ const Home = () => {
             </p>
             
             <div className="text-golden text-xl font-semibold mb-8">
-              رقم الهاتف: 0656-393165
+            رقم الهاتف: 0663001800
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

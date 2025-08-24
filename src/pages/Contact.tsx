@@ -44,7 +44,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'الهاتف',
-      content: '0656-393165',
+      content: '0663001800',
       description: 'متاح 24/7 للاستشارات العاجلة'
     },
     {
@@ -56,13 +56,13 @@ const Contact = () => {
     {
       icon: Clock,
       title: 'ساعات العمل',
-      content: 'السبت - الخميس: 9:00 - 18:00',
-      description: 'الجمعة: مغلق'
+      content: 'الاثنين - الأحد: 8:00 - 18:00',
+      description: ''
     },
     {
       icon: MessageCircle,
       title: 'واتساب',
-      content: '0656-393165',
+      content: '0663001800',
       description: 'للاستشارات السريعة'
     }
   ];
@@ -210,8 +210,7 @@ const Contact = () => {
                     <div>
                       <h4 className="font-medium mb-2">ساعات العمل:</h4>
                       <p className="text-muted-foreground">
-                        السبت - الخميس: 9:00 صباحاً - 6:00 مساءً<br />
-                        الجمعة: مغلق
+                      الاثنين - الأحد: 8:00 صباحاً - 6:00 مساءً<br />
                       </p>
                     </div>
                     <div>
@@ -246,7 +245,8 @@ const Contact = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button className="btn-golden">
               <Phone className="w-5 h-5 ml-2" />
-              اتصل الآن: 0656-393165
+              اتصل الآن: 0663001800
+
             </Button>
             <Button className="btn-outline-golden">
               <MessageCircle className="w-5 h-5 ml-2" />

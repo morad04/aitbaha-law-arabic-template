@@ -272,7 +272,7 @@ const Privacy = () => {
                       <Phone className="w-5 h-5 text-golden mt-1" />
                       <div>
                         <h4 className="font-semibold mb-1">الهاتف</h4>
-                        <p className="text-muted-foreground">0656-393165</p>
+                        <p className="text-muted-foreground">0663001800</p>
                       </div>
                     </div>
                     

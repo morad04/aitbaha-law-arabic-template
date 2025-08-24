@@ -25,7 +25,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
               <Phone className="w-4 h-4" />
-              <span>0656-393165</span>
+              <span>0663001800</span>
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="w-4 h-4" />
@@ -42,16 +42,18 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <nav className="bg-background border-b border-border sticky top-0 z-40 backdrop-blur-sm bg-background/95">
         <div className="max-w-content mx-auto px-4">
           <div className="flex justify-between items-center h-16">
-            {/* Logo */}
-            <Link to="/" className="flex items-center space-x-2 space-x-reverse">
-              <div className="w-10 h-10 bg-golden text-golden-foreground rounded-lg flex items-center justify-center font-bold text-xl">
-                أ
-              </div>
-              <div className="text-right">
-                <div className="font-bold text-lg text-foreground">أيت بها إسماعيل</div>
-                <div className="text-sm text-muted-foreground">محامي ورزازات</div>
-              </div>
-            </Link>
+           {/* Logo */}
+<Link to="/" className="flex items-center space-x-2 space-x-reverse">
+  <img 
+    src="/src/assets/logoismail.png" 
+    alt="شعار مكتب أيت بها إسماعيل" 
+    className="w-10 h-10 object-contain rounded-lg"
+  />
+  <div className="text-right">
+    <div className="font-bold text-lg text-foreground">أيت بها إسماعيل</div>
+    <div className="text-sm text-muted-foreground">محامي ورزازات</div>
+  </div>
+</Link>
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8 space-x-reverse">
@@ -116,7 +118,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
                   <Phone className="w-5 h-5 text-golden mt-1" />
-                  <span>0656-393165</span>
+                  <span>0663001800</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-golden mt-1" />
@@ -155,7 +157,8 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 
           <div className="border-t border-primary-dark mt-8 pt-8 text-center">
             <p className="text-sm">
-              © 2024 مكتب المحاماة - أيت بها إسماعيل. جميع الحقوق محفوظة.
+              © 2025
+ مكتب المحاماة - أيت بها إسماعيل. جميع الحقوق محفوظة.
             </p>
           </div>
         </div>
