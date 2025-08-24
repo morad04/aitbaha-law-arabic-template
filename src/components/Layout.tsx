@@ -12,7 +12,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     { name: 'الصفحة الرئيسية', path: '/', key: 'home' },
     { name: 'من نحن', path: '/about', key: 'about' },
     { name: 'مجالات الممارسة', path: '/practice-areas', key: 'practice' },
-    { name: 'المدونة القانونية', path: '/blog', key: 'blog' },
     { name: 'اتصل بنا', path: '/contact', key: 'contact' },
   ];
 
