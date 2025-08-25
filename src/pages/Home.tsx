@@ -68,7 +68,7 @@ const Home = () => {
               محامي ورزازات - مكتب محاماة
               <br />
               <br />
-              <span className="text-golden">أيت بها إسماعيل</span>
+              <span className="text-golden">ايت بها إسماعيل</span>
             </h1>
             
             <p className="text-xl text-gray-200 mb-4">
@@ -81,11 +81,11 @@ const Home = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="btn-golden">
-                استشارة مجانية
+              <Link to="/contact">استشارة مجانية</Link>
                 <ArrowLeft className="w-5 h-5 mr-2" />
               </Button>
               <Button className="btn-outline-golden">
-                <Link to="/contact">اتصل بنا</Link>
+              <a href="tel:0663001800">اتصل بنا</a>
               </Button>
             </div>
           </div>
@@ -150,7 +150,7 @@ const Home = () => {
                     نحن متاحون لتقديم الاستشارات القانونية في أي وقت لضمان خدمتكم بأفضل شكل ممكن
                   </p>
                   <Button className="btn-golden w-full">
-                    احجز استشارتك الآن
+                  <Link to="/contact">احجز استشارتك الآن</Link>
                   </Button>
                 </div>
               </Card>
@@ -170,7 +170,7 @@ const Home = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button className="btn-golden">
-              <Link to="/contact">اتصل بنا الآن</Link>
+            <a href="tel:0663001800">اتصل بنا الآن</a>
             </Button>
             <Button className="btn-outline-golden">
               <Link to="/practice-areas">اعرف المزيد عن خدماتنا</Link>

@@ -46,11 +46,11 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 <Link to="/" className="flex items-center space-x-2 space-x-reverse">
   <img 
     src="/logoismail.png" 
-    alt="شعار مكتب أيت بها إسماعيل" 
+    alt="شعار مكتب ايت بها إسماعيل" 
     className="w-10 h-10 object-contain rounded-lg"
   />
   <div className="text-right">
-    <div className="font-bold text-lg text-foreground">أيت بها إسماعيل</div>
+    <div className="font-bold text-lg text-foreground">ايت بها إسماعيل</div>
     <div className="text-sm text-muted-foreground">محامي ورزازات</div>
   </div>
 </Link>
@@ -67,7 +67,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 </Link>
               ))}
               <Button className="btn-golden">
-                استشارة مجانية
+              <Link to="/contact">استشارة مجانية</Link>
               </Button>
             </div>
 
@@ -95,8 +95,8 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                   </Link>
                 ))}
                 <Button className="btn-golden mt-4 w-full">
-                  استشارة مجانية
-                </Button>
+                <Link to="/contact">استشارة مجانية</Link>
+                                </Button>
               </div>
             </div>
           )}
@@ -158,7 +158,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           <div className="border-t border-primary-dark mt-8 pt-8 text-center">
             <p className="text-sm">
               © 2025
- مكتب المحاماة - أيت بها إسماعيل. جميع الحقوق محفوظة.
+ مكتب المحاماة - ايت بها إسماعيل. جميع الحقوق محفوظة.
             </p>
           </div>
         </div>

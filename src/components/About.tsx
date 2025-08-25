@@ -128,7 +128,7 @@ const About = () => {
                 <div className="text-muted-foreground">عميل راضي</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-golden mb-2">24/7</div>
+                <div className="text-4xl font-bold text-golden mb-2">ورزازات - مراكش - زاكورة - تنغير - الراشيدية و جميع محاكم المملكة المغربية.</div>
                 <div className="text-muted-foreground">خدمة متاحة</div>
               </div>
             </div>
