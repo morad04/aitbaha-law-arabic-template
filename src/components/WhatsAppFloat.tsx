@@ -1,5 +1,5 @@
 const WhatsAppFloat = () => {
-  const phoneNumber = "212663001800";
+  const phoneNumber = "212674506084";
   const message = "السلام عليكم، أرغب في استشارة قانونية";
 
   const handleWhatsAppClick = () => {

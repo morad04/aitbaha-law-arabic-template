@@ -62,7 +62,7 @@ const Contact = () => {
     {
       icon: MessageCircle,
       title: 'واتساب',
-      content: '0663001800',
+      content: '0674506084',
       description: 'للاستشارات السريعة'
     }
   ];
@@ -248,10 +248,18 @@ const Contact = () => {
               اتصل الآن: 0663001800
 
             </Button>
-            <Button className="btn-outline-golden">
-              <MessageCircle className="w-5 h-5 ml-2" />
-              راسلنا على واتساب
-            </Button>
+            <Button 
+  className="btn-outline-golden"
+  onClick={() => {
+    const phoneNumber = "212674506084";
+    const message = "السلام عليكم، أرغب في استشارة قانونية";
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, "_blank");
+  }}
+>
+  <MessageCircle className="w-5 h-5 ml-2" />
+  راسلنا على واتساب
+</Button>
           </div>
         </div>
       </section>
